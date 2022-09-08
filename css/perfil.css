@@ -1,0 +1,46 @@
+.teacher {
+    background: var(--cor-preta);
+    margin-top: 7rem;
+}
+
+.teacher .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.teacher .card-container .card {
+    padding: 2rem;
+    margin: 2rem;
+    background: #fff;
+    text-align: center;
+    width: 28rem;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+}
+
+.teacher .card-container .card img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s;
+}
+
+.teacher .card-container .card h3 {
+    color: var(--cor-preta);
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+
+.teacher .card-container .card p {
+    font-size: 1.7rem;
+    color: #222;
+    font-weight: bold;
+}
+
+.teacher .card-container .card .desc {
+    color: var(--color-azul);
+    margin-top: 6px;
+    cursor: pointer;
+}

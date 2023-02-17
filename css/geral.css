@@ -400,6 +400,7 @@
      .header {
          padding: 2rem;
          z-index: 1000;
+         gap:1rem;
      }
      section {
          padding: 2rem;
